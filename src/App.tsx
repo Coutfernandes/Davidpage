@@ -195,7 +195,7 @@ const content = {
 } as const
 
 const whatsappNumber = '5592993916066'
-const instagramUrl = 'https://instagram.com/manauarastyle_wrestling'
+const instagramUrl = 'https://www.instagram.com/prof.davidmoreira/'
 const sectionIds = ['home', 'about', 'methodology', 'classes', 'gallery', 'contact']
 const galleryImages = [
   '/images/david-white-gracie.jpg',
@@ -390,7 +390,7 @@ function App() {
               <p className="section-intro">{t.contactIntro}</p>
               <div className="contact-list">
                 <a className="contact-item" href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noreferrer"><MessageCircle /><span><small>WhatsApp</small><strong>+55 (92) 99391-6066</strong></span><ArrowRight /></a>
-                <a className="contact-item" href={instagramUrl} target="_blank" rel="noreferrer"><Camera /><span><small>Instagram</small><strong>@manauarastyle_wrestling</strong></span><ArrowRight /></a>
+                <a className="contact-item" href={instagramUrl} target="_blank" rel="noreferrer"><Camera /><span><small>Instagram</small><strong>@prof.davidmoreira</strong></span><ArrowRight /></a>
                 <div className="contact-item"><Award /><span><small>{t.academy}</small><strong>Carlson Gracie Manaus</strong></span></div>
                 <div className="contact-item"><MapPin /><span><small>{t.location}</small><strong>Manaus, AM — Brasil</strong></span></div>
               </div>
@@ -420,7 +420,7 @@ function App() {
             <img className="footer-bjj" src="/images/logo-bjj.jpeg" alt="David Moreira Brazilian Jiu-Jitsu" />
           </div>
           <div className="footer-links"><h3>{t.footerNav}</h3>{t.nav.map((label, index) => <a key={label} href={`#${sectionIds[index]}`}>{label}</a>)}</div>
-          <div className="footer-contact"><h3>{t.contactEyebrow}</h3><a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noreferrer">+55 (92) 99391-6066</a><a href={instagramUrl} target="_blank" rel="noreferrer">@manauarastyle_wrestling</a><p>Manaus, AM — Brasil</p></div>
+          <div className="footer-contact"><h3>{t.contactEyebrow}</h3><a href={`https://wa.me/${whatsappNumber}`} target="_blank" rel="noreferrer">+55 (92) 99391-6066</a><a href={instagramUrl} target="_blank" rel="noreferrer">@prof.davidmoreira</a><p>Manaus, AM — Brasil</p></div>
         </div>
         <div className="footer-bottom content-width"><span>© {new Date().getFullYear()} David Moreira — {t.rights}</span><a href="#home">{t.backToTop}<ArrowUp size={14} /></a></div>
       </footer>
